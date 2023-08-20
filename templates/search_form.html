@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Search</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <img id="logo" src="/static/images/bookwitharmsandlegs.jpg" alt="A description of the image">
+
+  <h1>PDF Search</h1>
+  <form action="/search" method="POST" enctype="multipart/form-data">
+    <label for="pdf">Upload PDF:</label>
+    <input type="file" id="pdf" name="pdf" accept=".pdf" required><br><br>
+
+    <label for="query">Enter Query:</label>
+    <input type="text" id="query" name="query" required><br><br>
+
+    <input type="submit" value="Search">
+  </form>
+</body>
+
