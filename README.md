@@ -1,5 +1,4 @@
 # PDF Search Web App 
-# PDF Search Application
 
 ## Project Overview
 
